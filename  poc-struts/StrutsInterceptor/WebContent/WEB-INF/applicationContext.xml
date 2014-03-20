@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd">
+   <beans>
+      <bean id="userClass" class="com.vision.struts2.LoginAction">
+      <property name="username" value="Admin" />
+      <property name="password" value="admin" />
+   </bean>
+</beans>
