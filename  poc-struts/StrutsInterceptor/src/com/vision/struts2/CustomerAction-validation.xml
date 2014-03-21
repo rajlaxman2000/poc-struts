@@ -6,12 +6,12 @@
 	<field name="name">
 		<field-validator type="requiredstring">
 			<param name="trim">true</param>
-			<message key="errors.required" />
+			<message key="errors.name.required" />
 		</field-validator>
 	</field>
 	<field name="age">
 		<field-validator type="required">
-			<message key="errors.required" />
+			<message key="errors.age.required" />
 		</field-validator>
 		<field-validator type="int">
 			<param name="min">1</param>
@@ -21,7 +21,7 @@
 	</field>
 	<field name="email">
 		<field-validator type="requiredstring">
-			<message key="errors.required" />
+			<message key="errors.email.required" />
 		</field-validator>
 		<field-validator type="email">
 			<message key="errors.invalid" />
@@ -29,7 +29,7 @@
 	</field>
 	<field name="telephone">
 		<field-validator type="requiredstring">
-			<message key="errors.required" />
+			<message key="errors.telephone.required" />
 		</field-validator>
 	</field>
 </validators>

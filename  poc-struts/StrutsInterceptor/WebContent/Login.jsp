@@ -9,9 +9,8 @@
 <h2>Login Application</h2>
 <s:actionerror />
 <s:form action="login.action" method="post">
-	<s:textfield name="username" key="UserName" size="20" />
-	<s:password name="password" key="Password" size="20" />
-	<s:submit method="execute" value="Login" align="center" />
-</s:form>
+	<s:textfield name="username" key="label.userName" size="20" />
+	<s:password name="password" key="label.password" size="20" />
+	<s:submit method="execute" key="label.login" align="center" /></s:form>
 </body>
 </html>
