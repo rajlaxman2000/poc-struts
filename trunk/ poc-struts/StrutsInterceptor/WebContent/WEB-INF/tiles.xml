@@ -23,9 +23,21 @@
 		<put-attribute name="title" value="Customer Form" />
 		<put-attribute name="body" value="/Customer.jsp" />
 	</definition>
+	<definition name="/student.tiles" extends="baseLayout">
+	<put-attribute name="title" value="Student Form" />
+		<put-attribute name="body" value="/index.jsp" />
+	</definition>
+	<definition name="/auto.tiles" extends="baseLayout">
+	<put-attribute name="title" value="Student Form" />
+		<put-attribute name="body" value="/autoComplete.jsp" />
+	</definition>
 	<definition name="/customer.success.tiles" extends="baseLayout">
 		<put-attribute name="title" value="Customer Added" />
 		<put-attribute name="body" value="/SuccessCustomer.jsp" />
+	</definition>
+	<definition name="/displaytag.tiles" extends="baseLayout">
+		<put-attribute name="title" value="Customer Added" />
+		<put-attribute name="body" value="/displaytag.jsp" />
 	</definition>
 
 </tiles-definitions>
