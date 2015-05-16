@@ -1,0 +1,1 @@
+This project will contain the proof of concept code for struts2 with tiles integration along with interceptor
